@@ -1,0 +1,9 @@
+I judged weather the point (X, Y) is inside polygon by the following steps:
+1.draw a horizontal line y = Y, going through the point
+2.calculate the X coordinate of the points, at which the horizon line and the edges of the polygon intersect.
+3. if the number of intersection points in the left of (X, Y) is odd, as well as the number if points in the right, (X,Y)is inside the polygon.
+
+vector is a kind of linear data structure, which can be search by index
+sort is a function which is implemented with  quick sorting algorithm, and it has three parameters, the beginning and the end of the vector, and the way to compare.
+
+
